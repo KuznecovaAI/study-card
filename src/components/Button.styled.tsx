@@ -15,7 +15,6 @@ export const StyledButton = styled.button<StyledButtonPropsType>`
     height: 30px;
     font-weight: 700;
     line-height: 200%;
-    //font-family: "Inter", sans-serif;
     font-size: 10px;
     
     
