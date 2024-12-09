@@ -15,7 +15,7 @@ export const StyledButton = styled.button<StyledButtonPropsType>`
     height: 30px;
     font-weight: 700;
     line-height: 200%;
-    font-size: 10px;
+    font-size: 1rem;
     
     
 
