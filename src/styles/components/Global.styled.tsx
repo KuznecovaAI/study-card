@@ -1,7 +1,7 @@
 import {createGlobalStyle} from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    body{
+    html{
         font-family: "Inter", sans-serif;
         font-size: 10px;
     }
