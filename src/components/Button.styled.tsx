@@ -16,17 +16,27 @@ export const StyledButton = styled.button<StyledButtonPropsType>`
     font-weight: 700;
     line-height: 200%;
     font-size: 1rem;
+    &:hover {
+        cursor: pointer;
+    }
     
-    
-
     ${props => props.btnType === "primary" && css<StyledButtonPropsType>`
         background-color: ${colorTheme.color.button};
         color: ${colorTheme.color.primary};
+        &:hover {
+            background-color: ${colorTheme.color.buttonHover};
+            color: ${colorTheme.color.primary};
+        }
     `}
 
     ${props => props.btnType === "outlined" && css<StyledButtonPropsType>`
         border: 2px solid ${colorTheme.color.button};
         background-color: ${colorTheme.color.primary};
         color: ${colorTheme.color.button};
+        &:hover {
+            border: none;
+            background-color: ${colorTheme.color.buttonHover};
+            color: ${colorTheme.color.primary};
+        }
     `}
 `
