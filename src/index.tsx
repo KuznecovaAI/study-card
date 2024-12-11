@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
     <ThemeProvider theme={colorTheme}>
         <App/>
-            <GlobalStyles/>
+        <GlobalStyles/>
     </ThemeProvider>
 );
 

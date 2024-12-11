@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import {colorTheme} from "../styles/components/Theme.styled";
 
-export const SectionBlog = styled.div`
-    margin: 20px 20px 22px 20px;
+export const BlogSection = styled.section`
+    padding: 20px 20px 22px 20px;
  `
 
 export const Title = styled.h1`
@@ -12,7 +12,7 @@ export const Title = styled.h1`
     text-align: left;
 `
 
-export const TextParagraph = styled.p`
+export const Text = styled.p`
     margin-top: 20px;
     font-weight: 500;
     line-height: 167%;
